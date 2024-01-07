@@ -1,0 +1,1 @@
+insert into more_info3 select * from more_info where id IN( select id FROM more_info )

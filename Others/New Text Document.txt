@@ -1,0 +1,11 @@
+SELECT * FROM tbl_billing INNER JOIN tbl_customer ON tbl_billing.bill_assigned_for=tbl_customer.customer_id
+
+
+
+
+SELECT *FROM tbl_billing LEFT JOIN tbl_customer ON tbl_billing.bill_assigned_for =tbl_customer.customer_id 
+UNION SELECT *FROM tbl_billing RIGHT JOIN tbl_customer ON tbl_billing.bill_assigned_for =tbl_customer.customer_id
+
+
+SELECT *FROM tbl_customer LEFT JOIN tbl_installment ON tbl_customer.customer_name =tbl_installment.installment_id 
+UNION SELECT *FROM tbl_customer RIGHT JOIN tbl_installment ON tbl_customer.customer_name =tbl_installment.installment_id

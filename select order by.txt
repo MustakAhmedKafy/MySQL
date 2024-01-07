@@ -1,0 +1,5 @@
+SELECT * FROM `more_info` ORDER BY `firstName`
+
+SELECT * FROM `more_info` ORDER BY `firstName` ASC;   //ascending order
+
+SELECT * FROM `more_info` ORDER BY `firstName` ASC;   //descending order

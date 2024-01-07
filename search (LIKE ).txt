@@ -1,0 +1,10 @@
+SELECT * FROM `more_info` WHERE lastName LIKE '%ahmed%'
+
+
+SELECT * FROM `more_info` WHERE lastName LIKE '%d'
+
+//sese 'd' dekhabe only
+
+SELECT * FROM `more_info` WHERE lastName NOT LIKE '%ahmed%'
+
+//ahmed badh a asbe

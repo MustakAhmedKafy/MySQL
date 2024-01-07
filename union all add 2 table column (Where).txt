@@ -1,0 +1,19 @@
+select city from customers
+union all
+select city from suppliers
+order by city;
+
+[jotogula city thakbe double thakle double e dekhabe]
+
+
+
+select city,division from customers
+
+where city='Dhaka'
+union all
+select city,division  from suppliers
+
+where city='Dhaka'
+
+
+order by city;

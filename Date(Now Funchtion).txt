@@ -1,0 +1,3 @@
+SELECT `firstName`,`Email`,`Division`,`Country`, Now() AS Date
+
+FROM more_info;

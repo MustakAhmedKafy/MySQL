@@ -1,0 +1,8 @@
+select city from customers
+union
+select city from suppliers
+order by city;
+
+
+2 ta table ar city ak column a dekhabe same gula
+double thakle akta dekhabe

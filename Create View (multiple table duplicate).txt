@@ -1,0 +1,4 @@
+CREATE VIEW TEST_VIEW
+AS
+SELECT tbl_customer.customer_name,tbl_customer.customer_phone_number AS PHONE,tbl_billing.bill_amount FROM tbl_billing AS T_B,tbl_customer AS T_C
+WHERE tbl_customer.customer_id=tbl_billing.bill_assigned_for

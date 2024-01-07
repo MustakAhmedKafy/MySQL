@@ -1,0 +1,19 @@
+SELECT MID(City,1,3) AS shortCity 
+FROM more_info;
+
+
+1st 3 ta degit dekhabe
+
+
+
+SELECT firstName, LENGTH(City) AS LengthofCity 
+FROM more_info; 
+
+lenght dekhabe 
+
+
+SELECT firstName, ROUND(salary,0) AS RoundSalary 
+FROM more_info;
+
+
+Round off korbe...kono number ar por point thakle seta badh dibe

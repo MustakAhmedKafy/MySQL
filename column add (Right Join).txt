@@ -1,0 +1,5 @@
+SELECT tbl_installment.installment_id, tbl_installment.installment_amount,tbl_installment.installment_under_course FROM tbl_installment RIGHT JOIN tbl_courses ON tbl_courses.course_id=tbl_installment.installment_id ORDER BY tbl_installment.intallment_date
+
+
+
+Right a Null dekhabe

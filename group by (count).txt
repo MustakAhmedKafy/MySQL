@@ -1,0 +1,14 @@
+SELECT `installment_amount`, COUNT(`installment_amount`) 
+FROM tbl_installment WHERE installment_amount>3000 
+GROUP BY `installment_amount`;
+
+
+3000 ar upor ar gula kon amount kotobar seta dekhabe
+
+SELECT `installment_amount`, COUNT(`installment_amount`) FROM tbl_installment GROUP BY `installment_amount`;
+
+
+
+kon amount kotobarkore ache seta dekhabe...
+kon id koto bar use korece seta dekhabe...
+

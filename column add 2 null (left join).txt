@@ -1,0 +1,5 @@
+SELECT tbl_installment.installment_id,tbl_installment.installment_amount, tbl_courses.course_fee,tbl_courses.course_name 
+FROM tbl_installment LEFT JOIN tbl_courses ON tbl_installment.installment_id=tbl_courses.course_id
+
+
+Null value dekhabe

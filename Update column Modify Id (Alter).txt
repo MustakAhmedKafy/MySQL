@@ -1,0 +1,1 @@
+ALTER TABLE mytable ADD INDEX `id` (id), MODIFY id int auto_increment;

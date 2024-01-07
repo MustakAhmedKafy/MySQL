@@ -1,0 +1,6 @@
+SELECT `installment_amount`, COUNT(`installment_amount`) FROM tbl_installment HAVING COUNT(`installment_amount`)>=500;
+
+
+total kotobar amount dewa hoice
+
+having use korle having ar songe agregate function use korte hbe

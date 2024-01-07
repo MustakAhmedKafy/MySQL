@@ -1,0 +1,5 @@
+CREATE TABLE more_info3 ( id INT NOT null AUTO_INCREMENT, firstName varchar(255), 
+lastName varchar(255), Address varchar(255), Email varchar(255),
+ City varchar(255), Division varchar(255), Country varchar(255), Region varchar(255),
+ Zipcode int (255), age int (11), salary int (11), PRIMARY KEY (id) 
+)

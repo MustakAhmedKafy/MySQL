@@ -1,0 +1,1 @@
+Alter table table_name Rename to new_tabl_name;

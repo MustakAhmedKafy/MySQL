@@ -1,0 +1,5 @@
+SELECT tbl_customer.customer_name, COUNT(customer_id) FROM tbl_customer, tbl_installment WHERE tbl_installment.installment_made_by = tbl_customer.customer_id GROUP by tbl_customer.customer_id
+
+
+
+SELECT tbl_installment.installment_made_by,tbl_customer.customer_name,tbl_billing.bill_amount,SUM(tbl_installment.installment_amount) AS paid,tbl_billing.bill_amount-SUM(tbl_installment.installment_amount) as unpaid_amount FROM tbl_installment,tbl_customer,tbl_billing WHERE tbl_customer.customer_id GROUP by tbl_installment.installment_made_by

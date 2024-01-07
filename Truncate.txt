@@ -1,0 +1,4 @@
+Truncate table player;
+
+
+sudhu data gula delete hobe

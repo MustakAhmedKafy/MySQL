@@ -1,0 +1,13 @@
+SELECT tbl_installment.installment_id,tbl_installment.installment_amount,tbl_courses.course_name 
+FROM tbl_installment INNER JOIN tbl_courses ON tbl_installment.installment_id=tbl_courses.course_id 
+
+
+
+3 ta column add korbe...
+
+
+SELECT tbl_installment.installment_id,tbl_installment.installment_amount,tbl_courses.course_name 
+FROM tbl_installment INNER JOIN tbl_courses ON tbl_installment.installment_id=tbl_courses.course_id ORDER BY `installment_under_course`
+
+
+order by dekhabe

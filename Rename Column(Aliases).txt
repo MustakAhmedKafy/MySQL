@@ -1,0 +1,19 @@
+SELECT LastName AS 'First Name', FirstName AS 'Last Name' FROM player;
+
+
+rename column
+
+
+SELECT concat(FirstName,' ',LastName) AS Name, Email,Address, Country FROM player;
+
+
+2ta column Ak songe dekhabe
+
+
+
+SELECT concat(FirstName,' ',LastName) AS 'Name', concat(Address,' , ', Country) AS 'Address',Email FROM player;
+
+
+
+
+

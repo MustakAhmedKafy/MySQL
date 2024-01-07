@@ -1,0 +1,11 @@
+SELECT * FROM tbl_customer WHERE customer_id IN(SELECT customer_id FROM tbl_customer WHERE customer_id> 30 )
+
+
+30 ar upor sob id ar details  dekhabe 
+
+
+
+SELECT customer_id FROM tbl_customer WHERE customer_id> 30
+
+
+only ID dekhabe

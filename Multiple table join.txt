@@ -1,0 +1,4 @@
+SELECT tbl_billing.bill_id, tbl_customer.customer_name,tbl_installment.installment_amount
+FROM tbl_billing INNER JOIN tbl_customer ON tbl_billing.bill_id=tbl_customer.customer_id
+INNER JOIN tbl_installment ON tbl_billing.bill_id=tbl_installment.installment_id
+ORDER BY tbl_billing.bill_id

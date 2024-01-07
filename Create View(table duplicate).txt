@@ -1,0 +1,17 @@
+CREATE VIEW more_info_view AS
+SELECT `id`,`firstName`,`lastName` FROM more_info WHERE `firstName` is not null;
+
+
+
+j j coloumn gula select korbo sei gula duplicate hbe....ata actually duplicte table
+
+
+
+
+
+
+SELECT * FROM more_info_view;
+
+
+
+view table open hobe;

@@ -1,0 +1,3 @@
+SELECT t1.bill_id, t1.bill_assigned_date, t2.customer_name, t2.customer_phone_number FROM tbl_billing AS t1, tbl_customer AS t2;
+
+rename kora

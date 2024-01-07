@@ -1,0 +1,1 @@
+UPDATE more_info SET `firstName` ='Shehzad' WHERE id=7

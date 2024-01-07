@@ -1,0 +1,11 @@
+SELECT `firstName`,`lastName` FROM more_info
+
+jokhn j column gula select korbo
+
+
+
+
+
+SELECT  distinct `city` FROM more_info  
+
+//sudhu city dekhabe...double thakle aktai dekhabe...

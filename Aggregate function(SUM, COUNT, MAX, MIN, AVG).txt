@@ -1,0 +1,52 @@
+1. SELECT COUNT(*)
+FROM tbl_customer;
+
+total row
+
+
+
+
+2. SELECT MAX(installment_amount) FROM tbl_installment;
+
+maximum value dekhabe
+
+
+
+
+3. SELECT MIN(installment_amount) FROM tbl_installment;
+
+minimum value dekhabe
+
+
+
+
+4. SELECT SUM(installment_amount) FROM tbl_installment;
+
+5. SELECT AVG(installment_amount) FROM tbl_installment;
+
+
+
+
+6.SELECT COUNT(installment_amount),MIN(installment_amount),MAX(installment_amount),SUM(installment_amount) AVG(installment_amount)
+ FROM tbl_installment;
+
+
+
+
+
+
+7. SELECT MIN(`installment_amount`) FROM tbl_installment WHERE gender='Female';
+
+
+female ar min value dekhabe
+
+
+
+
+
+8.
+
+SELECT `installment_id`,`installment_made_by`,`installment_date`, MIN(`installment_amount`) FROM tbl_installment 
+
+
+sob coulmn dekhte caile

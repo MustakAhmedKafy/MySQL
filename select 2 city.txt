@@ -1,0 +1,3 @@
+SELECT * FROM `more_info` WHERE City IN ('Rajshahi','Dhaka')
+
+//kono column ar akoi nam ar value gula jokhn dekhte caibo

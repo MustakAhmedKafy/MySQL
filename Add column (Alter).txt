@@ -1,0 +1,2 @@
+ALTER TABLE mytable  //table name//    ADD  continent //column name//   verchar (255);
+ALTER TABLE mytable drop continent ;

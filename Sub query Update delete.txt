@@ -1,0 +1,9 @@
+UPDATE more_info 
+SET salary = salary*.25
+WHERE age IN 
+(SELECT age FROM more_info3 WHERE age >=25);
+
+
+delete
+
+DELETE FROM more_info3 WHERE age IN (SELECT age FROM more_info WHERE age=32)

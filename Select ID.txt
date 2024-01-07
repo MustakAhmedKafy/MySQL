@@ -1,0 +1,8 @@
+SELECT * FROM `more_info` WHERE id=7
+
+
+SELECT * FROM `more_info` WHERE id<=5  
+
+
+
+//5 ar choto gula dekhabe//

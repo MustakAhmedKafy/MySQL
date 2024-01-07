@@ -1,0 +1,5 @@
+DESCRIBE tbl_installment;
+
+
+
+table information dekhabe
